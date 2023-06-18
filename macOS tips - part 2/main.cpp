@@ -113,7 +113,7 @@ int main(int argc, const char * argv[])
         assert(false);
     }
     
-    
+
     
     //Test wake timer
     if(false)
@@ -567,8 +567,6 @@ bool RebootShutdownSoft(bool bReboot)
 ///     - false if failed, check errno for details
 bool RebootShutdownHard(bool bReboot)
 {
-    bool bRes = false;
-    
     int nPwrOpFlgs;
     
     if(bReboot)
